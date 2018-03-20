@@ -81,7 +81,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %[Lzo decoder plugin for Embulk]
   spec.description   = %[Decodes Lzo-encoded files read by other file input plugins.]
   spec.email         = ["ntkes07@gmail.com"]
-  spec.licenses      = ["MIT"]
+  spec.licenses      = ["GPL"]
   spec.homepage      = "https://github.com/ntkes3/embulk-decoder-lzo"
 
   spec.files         = `git ls-files`.split("\n") + Dir["classpath/*.jar"]
