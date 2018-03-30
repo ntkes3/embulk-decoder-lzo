@@ -17,8 +17,8 @@ in:
   type: any output input plugin type
   decoders:
     - type: lzo
-  exec:
-    preview_sample_buffer_bytes: 65535
+exec:
+  preview_sample_buffer_bytes: 65535
 
 ```
 
